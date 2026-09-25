@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admission form</title>
+  
+</head>
+
+<body>
+  
+  <form>
+    <style>
+      form{
+        background-color:rgb(247, 170, 236);
+      }
+    </style>
+    <h2> <center>COLLEGE ADMISSION FORM</center></h2>
+    <fieldset>
+      <style>
+        fieldset{
+          border: 2px solid darkblue;
+        }
+      </style>
+      <legend>
+       <b> Personal Information </b>
+      </legend>
+      <label> Student Name:</label>
+      <input type="text" name="name"><br>
+      <label> Father's Name:</label>
+      <input type="text" name="name"><br>
+      <label> Mother's Name:</label>
+      <input type="text" name="name"><br>
+      <label> Date of Birth:</label>
+      <input type="date" id="dob" placeholder="dd-mm-yyyy"><br>
+      <label> Gender:</label>
+      <input type="radio" id="gender" name="gender" value="gender">Male
+      <input type="radio" id="gender" name="gender" value="gender">Female
+      <input type="radio" id="gender" name="gender" value="gender">Others<br>
+      
+
+    </fieldset>
+    <fieldset>
+      <legend><b> Contact Information </b></legend>
+      <label>Email:</label>
+      <input type="email" id="email"><br>
+      <label> Mobile Number:</label>
+      <input type="tel" id="tel"><br>
+      <label> Address:</label>
+      <textarea></textarea><br>
+      <label>City:</label>
+      <input type="text" name="text"><br>
+      <label>State:</label>
+      <select id="state">
+        <option>Select State</option>
+        <option>West Bengal</option>
+        <option>Bihar</option>
+        <option>Jharkhand</option>
+        <option>Assam</option>
+        <option>Sikkim</option>
+        <option>Manipur</option>
+        <option>Mizoram</option>
+        <option>Nagaland</option>
+        <option>Arunachal Pradesh</option>
+        <option>Uttar Pradesh</option>
+        <option>Uttarakhand</option>
+        <option>Delhi</option>
+        <option>Punjab</option>
+        <option>Haryana</option>
+      </select><br>
+      <label>Pincode:</label>
+      <input type="number" id="number"><br>
+    </fieldset>
+    <fieldset>
+      <legend> <b>Educational Information </b></legend>
+      <label> Previous Qualification</label>
+      <select id="qualification">
+        <option>Select Qualification</option>
+        <option>10th</option>
+        <option>12th</option>
+        <option>Diploma</option>
+        <option>UG</option>
+        <option>PG</option>
+        <option>PhD/Doctorate</option>
+        <option>Other</option>
+      </select><br>
+      <label>Percentage/CGPA:</label>
+      <input type="tel" id="tel"><br>
+      <label>Course Applied For:</label>
+      <select id="course">
+        <option>Select Course</option>
+        <option>BA</option>
+        <option>BCA</option>
+        <option>B.Tech</option>
+        <option>B.Sc.</option>
+        <option>B.COM</option>
+        <option>ITI</option>
+        <option>MBA</option>
+        <option>MCA</option>
+        <option>MA</option>
+        <option>M.Com</option>
+      </select><br>
+    </fieldset>
+    <fieldset>
+      <legend> <b>Other Information </b></legend>
+      <label>Hobbies:</label><br>
+      <input type="checkbox"  value="hobby">Reading
+      <input type="checkbox"  value="hobby">Sports
+      <input type="checkbox"  value="hobby">Music
+      <input type="checkbox"  value="hobby">Drawing<br>
+      <label> Upload Photograph:</label>
+      <input type="file" name="photo">
+    </fieldset>
+    <fieldset>
+      <legend><b>Declaration</b></legend>
+      <input type="radio"  value="text"> <b>I hereby declare that all the information provided by me is true and connect to the best of my knowledge.</b><br>
+     
+    </fieldset>
+    <center> <input type="Submit" value="Submit Aplication">
+      <input type="submit" value="Reset Form"></center>
+  </form>
+</body>
+</html>
